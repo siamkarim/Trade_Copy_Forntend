@@ -29,7 +29,7 @@ The backend already has the copy-decision core, auth/account APIs, and the termi
 
 Next.js (App Router) + TypeScript. Talks to the FastAPI backend; never talks to MT5 or IB directly.
 
-## Local run (once the app is scaffolded)
+## Local run
 
 ```bash
 cp .env.example .env.local
@@ -38,7 +38,7 @@ npm install
 npm run dev
 ```
 
-The API must be running from the backend repo (`tradecopy serve` after Postgres/Redis).
+Open [http://localhost:3000](http://localhost:3000). The API must be running from the backend repo (`tradecopy serve` after Postgres/Redis).
 
 ## Out of scope
 

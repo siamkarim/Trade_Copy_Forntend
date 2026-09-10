@@ -1,8 +1,8 @@
-node_modules/
-.next/
-out/
-dist/
-.turbo/
+node_modules
+.next
+out
+dist
+.turbo
 .env
 .env.local
 .env.*.local

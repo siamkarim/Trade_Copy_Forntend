@@ -1,0 +1,12 @@
+---
+description: TradeCopy frontend invariants.
+alwaysApply: true
+---
+
+Read `AGENTS.md`. This repo is UI only.
+
+- Never talk to MT5 or IB from the browser.
+- Never place orders from the UI. Kill switch / flatten are API config writes.
+- Symbol maps need an explicit human confirm.
+- Do not persist trading passwords in localStorage.
+- No `Co-authored-by` on commits.
